@@ -1,0 +1,228 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="#F5DEB3">
+
+    <include layout="@layout/footer"
+        android:id="@+id/include2" />
+<!--
+    <include layout="@layout/header"/>
+-->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/title"
+        android:textColor="#cd1076"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:ellipsize="marquee"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_above="@+id/include2">
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/maintab"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:background="#ffffff"
+            android:layout_alignParentLeft="true">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:background="#bcee68"
+                android:layout_marginTop="05dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Commodity       "
+                    android:textColor="#483d8b"
+                    android:background="@drawable/cell_shape"
+                    android:textAlignment="center"
+                    android:id="@+id/Commodity_title"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:padding="3dip"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Allotted Qty"
+                    android:textColor="#483d8b"
+                    android:background="@drawable/cell_shape"
+                    android:textAlignment="center"
+                    android:id="@+id/Alloted_Qty_title"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:padding="3dip"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Received Qty"
+                    android:textColor="#483d8b"
+                    android:textAlignment="center"
+                    android:background="@drawable/cell_shape"
+                    android:id="@+id/received_Qty_title"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:padding="3dip"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Issued Qty  "
+                    android:textColor="#483d8b"
+                    android:textAlignment="center"
+                    android:id="@+id/issued_Qty_title"
+                    android:background="@drawable/cell_shape"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:padding="3dip"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="OB"
+                    android:textColor="#483d8b"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:id="@+id/opening_bal_title"
+                    android:background="@drawable/cell_shape"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:padding="3dip"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="CB"
+                    android:textColor="#483d8b"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:id="@+id/closing_bal_title"
+                    android:background="@drawable/cell_shape"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:padding="3dip"/>
+
+            </TableRow>
+           <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               android:id="@+id/rowid"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true">
+
+           <!--    <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#483d8b"
+                    android:paddingRight="3dip"
+                    android:textAlignment="center"
+                    android:id="@+id/Rice_commodity"
+                    android:background="@drawable/cell_shape"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textAlignment="center"
+                    android:gravity="right"
+                    android:id="@+id/Rice_alloted_qty"
+                    android:background="@drawable/cell_shape"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textAlignment="center"
+                    android:gravity="right"
+                    android:id="@+id/Rice_received_qty"
+                    android:background="@drawable/cell_shape"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textAlignment="center"
+                    android:gravity="right"
+                    android:id="@+id/Rice_issued_qty"
+                    android:background="@drawable/cell_shape"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textAlignment="center"
+                    android:gravity="right"
+                    android:id="@+id/Rice_opening_bal"
+                    android:background="@drawable/cell_shape"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textAlignment="center"
+                    android:id="@+id/Rice_closing_bal"
+                    android:background="@drawable/cell_shape"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"/>-->
+
+
+            </TableRow>
+
+
+            </TableLayout>
+    </HorizontalScrollView>
+    </ScrollView>
+
+</RelativeLayout>

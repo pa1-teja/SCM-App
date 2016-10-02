@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Android_studio\Android Projects\NIC_SCM\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="E:\Android_studio\Android Projects\NIC_SCM\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3_226203f629873e9d1ecc1c87a4c3ccebb62f84e4.jar" />
+    </item>
+    <item
+        jar="E:\Android_studio\Android Projects\NIC_SCM\app\libs\ksoap2-android-assembly-3.4.0-jar-with-dependencies.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="45fbaab416fb5cff992e662d1f7a83786f084fc3">
+        <dex dex="E:\Android_studio\Android Projects\NIC_SCM\app\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-3.4.0-jar-with-dependencies_16003b08d6a70118def31d00deede4c7f8e838af.jar" />
+    </item>
+    <item
+        jar="E:\Android_studio\Android Projects\NIC_SCM\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="E:\Android_studio\Android Projects\NIC_SCM\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-21.0.3_cb07ad769d88f6bea7047a12cb184851fd3b765c.jar" />
+    </item>
+    <item
+        jar="E:\Android_studio\Android-SDK\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="E:\Android_studio\Android Projects\NIC_SCM\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3_c1b81b5782fd4af2b1f0654673a96e5dc0e4b326.jar" />
+    </item>
+    <item
+        jar="E:\Android_studio\Android Projects\NIC_SCM\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="E:\Android_studio\Android Projects\NIC_SCM\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-21.0.3_3f0e6dd12225ac3429236dd59ab53f7476524c8f.jar" />
+    </item>
+
+</items>

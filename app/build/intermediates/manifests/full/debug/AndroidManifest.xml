@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nic_scm"
+    android:versionCode="1"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <supports-screens>
+        android:largeScreens=["true" | "false"]
+    android:xlargeScreens=["true" | "false"]
+    android:anyDensity=["true" | "false"]
+    </supports-screens>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="Fair Price Shop status"
+        android:logo="@mipmap/logo"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.nic_scm.MainActivity"
+            android:label="FPS status"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nic_scm.Allocation_Details"
+            android:label="@string/title_activity_allocation__details"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.nic_scm.closingBalance"
+            android:label="@string/title_activity_closing_balance" >
+        </activity>
+        <activity
+            android:name="com.example.nic_scm.ICDSActivity"
+            android:label="ICDS Allocation" >
+        </activity>
+        <activity
+            android:name="com.example.nic_scm.Dashboard"
+            android:label="@string/title_activity_dashboard"
+            android:launchMode="singleTask"
+            android:parentActivityName="com.example.nic_scm.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nic_scm.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.nic_scm.StockReportDetails"
+            android:label="@string/title_activity_stock_report_details"
+            android:screenOrientation="landscape" >
+        </activity>
+    </application>
+
+</manifest>

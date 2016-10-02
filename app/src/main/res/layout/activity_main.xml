@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#F5DEB3"
+
+    >
+    <include layout="@layout/footer"
+        android:id="@+id/include" />
+<!--
+    <include layout="@layout/header"
+-->
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Fp_shop"
+        android:maxLength="7"
+        android:ems="10"
+        android:id="@+id/fp_shop"
+        android:layout_marginBottom="60dp"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/button"
+
+        android:background="#ff74a2ff"
+        android:layout_above="@+id/include"
+        android:layout_alignLeft="@+id/fp_shop"
+        android:layout_alignStart="@+id/fp_shop"
+        android:layout_marginBottom="20dp"
+        android:layout_alignRight="@+id/fp_shop"
+        android:layout_alignEnd="@+id/fp_shop"
+        android:textColor="#ffffffff" />
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/PDSRice"
+        android:textColor="#ff0d0bff"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/select"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        />
+    <!--android:layout_below="@+id/include4"-->
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:popupBackground="#6599FF"
+        android:spinnerMode="dropdown"
+        android:layout_below="@+id/PDSRice"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="74dp" />
+
+</RelativeLayout>

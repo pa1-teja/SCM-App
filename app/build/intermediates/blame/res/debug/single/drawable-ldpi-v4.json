@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\Android_studio\\Android Projects\\NIC_SCM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\images.jpg",
+        "source": "E:\\Android_studio\\Android Projects\\NIC_SCM\\app\\src\\main\\res\\drawable-ldpi\\images.jpg"
+    },
+    {
+        "merged": "E:\\Android_studio\\Android Projects\\NIC_SCM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\scmap.jpg",
+        "source": "E:\\Android_studio\\Android Projects\\NIC_SCM\\app\\src\\main\\res\\drawable-ldpi\\scmap.jpg"
+    }
+]

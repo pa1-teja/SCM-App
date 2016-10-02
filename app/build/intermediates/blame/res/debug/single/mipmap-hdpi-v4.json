@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\Android_studio\\Android Projects\\NIC_SCM\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\front_image.png",
+        "source": "E:\\Android_studio\\Android Projects\\NIC_SCM\\app\\src\\main\\res\\mipmap-hdpi\\front_image.png"
+    },
+    {
+        "merged": "E:\\Android_studio\\Android Projects\\NIC_SCM\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\logo.png",
+        "source": "E:\\Android_studio\\Android Projects\\NIC_SCM\\app\\src\\main\\res\\mipmap-hdpi\\logo.png"
+    }
+]
