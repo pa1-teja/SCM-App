@@ -1,38 +1,38 @@
 [
     {
-        "merged": "E:\\Android_studio\\Android Projects\\NIC_SCM\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "E:\\Android_studio\\Android Projects\\NIC_SCM\\app\\src\\main\\res\\menu\\main.xml"
+        "merged": "E:\\Android_Studio\\Android-Studio projects\\SCM-FPS-STATUS\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main_activity2.xml",
+        "source": "E:\\Android_Studio\\Android-Studio projects\\SCM-FPS-STATUS\\app\\src\\main\\res\\menu\\menu_main_activity2.xml"
     },
     {
-        "merged": "E:\\Android_studio\\Android Projects\\NIC_SCM\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_dashboard.xml",
-        "source": "E:\\Android_studio\\Android Projects\\NIC_SCM\\app\\src\\main\\res\\menu\\menu_dashboard.xml"
+        "merged": "E:\\Android_Studio\\Android-Studio projects\\SCM-FPS-STATUS\\app\\build\\intermediates\\res\\merged\\debug\\menu\\action_bar.xml",
+        "source": "E:\\Android_Studio\\Android-Studio projects\\SCM-FPS-STATUS\\app\\src\\main\\res\\menu\\action_bar.xml"
     },
     {
-        "merged": "E:\\Android_studio\\Android Projects\\NIC_SCM\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_test.xml",
-        "source": "E:\\Android_studio\\Android Projects\\NIC_SCM\\app\\src\\main\\res\\menu\\menu_test.xml"
+        "merged": "E:\\Android_Studio\\Android-Studio projects\\SCM-FPS-STATUS\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_activity_stock_report_details.xml",
+        "source": "E:\\Android_Studio\\Android-Studio projects\\SCM-FPS-STATUS\\app\\src\\main\\res\\menu\\menu_activity_stock_report_details.xml"
     },
     {
-        "merged": "E:\\Android_studio\\Android Projects\\NIC_SCM\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main_activity2.xml",
-        "source": "E:\\Android_studio\\Android Projects\\NIC_SCM\\app\\src\\main\\res\\menu\\menu_main_activity2.xml"
+        "merged": "E:\\Android_Studio\\Android-Studio projects\\SCM-FPS-STATUS\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_dashboard.xml",
+        "source": "E:\\Android_Studio\\Android-Studio projects\\SCM-FPS-STATUS\\app\\src\\main\\res\\menu\\menu_dashboard.xml"
     },
     {
-        "merged": "E:\\Android_studio\\Android Projects\\NIC_SCM\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_closing_balance.xml",
-        "source": "E:\\Android_studio\\Android Projects\\NIC_SCM\\app\\src\\main\\res\\menu\\menu_closing_balance.xml"
+        "merged": "E:\\Android_Studio\\Android-Studio projects\\SCM-FPS-STATUS\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "E:\\Android_Studio\\Android-Studio projects\\SCM-FPS-STATUS\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "E:\\Android_studio\\Android Projects\\NIC_SCM\\app\\build\\intermediates\\res\\merged\\debug\\menu\\allocation__details.xml",
-        "source": "E:\\Android_studio\\Android Projects\\NIC_SCM\\app\\src\\main\\res\\menu\\allocation__details.xml"
+        "merged": "E:\\Android_Studio\\Android-Studio projects\\SCM-FPS-STATUS\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_closing_balance.xml",
+        "source": "E:\\Android_Studio\\Android-Studio projects\\SCM-FPS-STATUS\\app\\src\\main\\res\\menu\\menu_closing_balance.xml"
     },
     {
-        "merged": "E:\\Android_studio\\Android Projects\\NIC_SCM\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_stock_report_details.xml",
-        "source": "E:\\Android_studio\\Android Projects\\NIC_SCM\\app\\src\\main\\res\\menu\\menu_stock_report_details.xml"
+        "merged": "E:\\Android_Studio\\Android-Studio projects\\SCM-FPS-STATUS\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_stock_report_details.xml",
+        "source": "E:\\Android_Studio\\Android-Studio projects\\SCM-FPS-STATUS\\app\\src\\main\\res\\menu\\menu_stock_report_details.xml"
     },
     {
-        "merged": "E:\\Android_studio\\Android Projects\\NIC_SCM\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_activity_stock_report_details.xml",
-        "source": "E:\\Android_studio\\Android Projects\\NIC_SCM\\app\\src\\main\\res\\menu\\menu_activity_stock_report_details.xml"
+        "merged": "E:\\Android_Studio\\Android-Studio projects\\SCM-FPS-STATUS\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_test.xml",
+        "source": "E:\\Android_Studio\\Android-Studio projects\\SCM-FPS-STATUS\\app\\src\\main\\res\\menu\\menu_test.xml"
     },
     {
-        "merged": "E:\\Android_studio\\Android Projects\\NIC_SCM\\app\\build\\intermediates\\res\\merged\\debug\\menu\\action_bar.xml",
-        "source": "E:\\Android_studio\\Android Projects\\NIC_SCM\\app\\src\\main\\res\\menu\\action_bar.xml"
+        "merged": "E:\\Android_Studio\\Android-Studio projects\\SCM-FPS-STATUS\\app\\build\\intermediates\\res\\merged\\debug\\menu\\allocation__details.xml",
+        "source": "E:\\Android_Studio\\Android-Studio projects\\SCM-FPS-STATUS\\app\\src\\main\\res\\menu\\allocation__details.xml"
     }
 ]

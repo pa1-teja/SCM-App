@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\Android_studio\\Android Projects\\NIC_SCM\\app\\build\\intermediates\\res\\merged\\debug\\values-port\\values-port.xml",
+        "outputFile": "E:\\Android_Studio\\Android-Studio projects\\SCM-FPS-STATUS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 106
                 },
                 "from": {
-                    "file": "E:\\Android_studio\\Android Projects\\NIC_SCM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values-port\\values.xml",
+                    "file": "E:\\Android_Studio\\Android-Studio projects\\SCM-FPS-STATUS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values-port\\values.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,

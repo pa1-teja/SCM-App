@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\Android_studio\\Android Projects\\NIC_SCM\\app\\build\\intermediates\\res\\merged\\debug\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "outputFile": "E:\\Android_Studio\\Android-Studio projects\\SCM-FPS-STATUS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,13 +11,13 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "E:\\Android_studio\\Android Projects\\NIC_SCM\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "file": "E:\\Android_Studio\\Android-Studio projects\\SCM-FPS-STATUS\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 310,
+                        "startOffset": 312,
                         "endColumn": 57,
-                        "endOffset": 363
+                        "endOffset": 365
                     }
                 }
             }

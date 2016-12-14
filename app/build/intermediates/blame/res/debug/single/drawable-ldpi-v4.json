@@ -1,10 +1,10 @@
 [
     {
-        "merged": "E:\\Android_studio\\Android Projects\\NIC_SCM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\images.jpg",
-        "source": "E:\\Android_studio\\Android Projects\\NIC_SCM\\app\\src\\main\\res\\drawable-ldpi\\images.jpg"
+        "merged": "E:\\Android_Studio\\Android-Studio projects\\SCM-FPS-STATUS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\scmap.jpg",
+        "source": "E:\\Android_Studio\\Android-Studio projects\\SCM-FPS-STATUS\\app\\src\\main\\res\\drawable-ldpi\\scmap.jpg"
     },
     {
-        "merged": "E:\\Android_studio\\Android Projects\\NIC_SCM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\scmap.jpg",
-        "source": "E:\\Android_studio\\Android Projects\\NIC_SCM\\app\\src\\main\\res\\drawable-ldpi\\scmap.jpg"
+        "merged": "E:\\Android_Studio\\Android-Studio projects\\SCM-FPS-STATUS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\images.jpg",
+        "source": "E:\\Android_Studio\\Android-Studio projects\\SCM-FPS-STATUS\\app\\src\\main\\res\\drawable-ldpi\\images.jpg"
     }
 ]

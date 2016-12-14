@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/NIC_SCM.iml" filepath="$PROJECT_DIR$/NIC_SCM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SCM-FPS-STATUS.iml" filepath="$PROJECT_DIR$/SCM-FPS-STATUS.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
